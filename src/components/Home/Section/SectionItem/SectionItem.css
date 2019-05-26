@@ -1,0 +1,66 @@
+.domain-search-section{
+background-image: linear-gradient(to left, #00C0ED, #0092D8);
+}
+
+
+.section-title.st-white h2 {
+	color: #fff;
+}
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.spad {
+	padding-top: 105px;
+	padding-bottom: 105px;
+}
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+	color: #fff;
+}
+
+/* ----------------
+   Domain search
+ ---------------------*/
+.domain-form-warp{
+	max-width: 993px;
+	margin: 0 auto;
+}
+
+.domain-form-warp p {
+	font-size: 12px;
+	color: #fff;
+	opacity: 0.26;
+	margin-bottom: 0;
+	line-height: 1;
+}
+.domain-search-form{
+	margin-bottom: 15px;
+}
+
+.domain-search-form input {
+	width: calc(100% - 239px);
+	height: 59px;
+	font-size: 14px;
+	border: none;
+	border-radius: 14px;
+	display: inline-block;
+	padding: 0 31px;
+	margin-right: 5px; 
+}
+
+.domain-search-form .site-btn{
+	height: 59px;
+	min-width:229px;
+}

@@ -1,0 +1,29 @@
+.page-top-section {
+	height: 404px;
+	padding-top: 215px;
+}
+
+.page-top-section h2 {
+	color: #fff;
+}
+
+
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.site-breadcrumb {
+	color: #fff;
+	opacity: 0.37;
+	font-size: 14px;
+}
+
+.site-breadcrumb a {
+	color: #fff;
+}
+
+.site-breadcrumb span{
+	text-transform: uppercase;
+}

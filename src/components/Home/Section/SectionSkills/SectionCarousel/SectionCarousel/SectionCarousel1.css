@@ -1,0 +1,68 @@
+
+.carousel-cell {
+	width: 100%; 
+  }
+
+
+  .carousel-cell .ti-content{
+	background: #eef6f9;
+	padding: 5px 35px 45px 38px;
+	border-radius: 15px;
+	margin-bottom: 4px;
+	position: relative;
+  }
+
+ /* .carousel-cell{
+	overflow: hidden;
+} */
+
+/* .carousel-cell  {
+
+	background: #eef6f9;
+	padding: 48px 35px 45px 38px;
+	border-radius: 15px;
+	margin-bottom: 42px;
+	position: relative;
+} */
+
+.ti-content p {
+	margin-top: 75px;
+	font-size: 15px;
+	margin-bottom: 0;
+}
+
+.carousel-cell .ti-content:after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	right: 34px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 17px solid #eef6f9;
+}
+
+.ti-author-pic {
+    margin-top: 15px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: right;
+	margin-left: 35px;
+}
+
+.carousel-cell .ti-author {
+	text-align: right;
+	overflow: hidden;
+	padding-top: 25px;
+}
+
+.carousel-cell .ti-author h6 {
+	font-weight: 700;
+}
+
+.carousel-cell .ti-author span {
+	color: #eb2b63;
+	font-weight: 700;
+} 

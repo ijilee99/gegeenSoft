@@ -1,0 +1,14 @@
+li{
+    display: inline;
+}
+
+ li a{
+    display: inline-block;
+    font-size: 14px;
+    color:#fff;
+}
+
+
+a:hover {
+	color: #eb2b63;
+}

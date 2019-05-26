@@ -1,0 +1,11 @@
+.Layout {
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	
+}
+p{
+	font-size: 14px;
+    color: #585858;
+    line-height: 2;
+}

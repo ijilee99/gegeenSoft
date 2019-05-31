@@ -5,7 +5,7 @@
     background-color: #ffffff;
     padding: 80px 30px 50px;
     border-radius: 10px;
-    box-shadow: 3px 0 15px -1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 10px 20px 0px rgba(130,20,106,0.1);
     position: relative;
     z-index: 1;
     margin-top: 50px;
@@ -19,7 +19,7 @@
     transition-duration: 800ms;
     height: 76px;
     width: 76px;
-    background-color: #5f30ff;
+    background-color: #5684EC;
     display: inline-block;
     text-align: center;
     line-height: 76px;
@@ -53,7 +53,7 @@
 }
 
 .us-content:hover{
-    background:#5f30ff
+    background:#5684EC
 }
 .us-content:hover h4,
 .us-content:hover p,

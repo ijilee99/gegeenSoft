@@ -13,8 +13,8 @@ class SectionSkill extends Component {
                 <div className="about-extra">
                     <Row>
                             <Col  sm="6">
-                                <div class="wow fadeInUp">
-                                    <img src={About} class="img-fluid" alt="" />
+                                <div className="wow fadeInUp">
+                                    <img src={About} className="img-fluid" alt="" />
                                 </div>
                                 </Col>
                             <Col  sm="6">

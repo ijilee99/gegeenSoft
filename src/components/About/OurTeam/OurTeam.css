@@ -8,8 +8,8 @@
     position: relative;
     z-index: 1;
     padding: 40px;
-    -webkit-box-shadow: 0 4px 20px 3px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 4px 20px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 4px 20px 3px rgba(130,20,106,0.1);
+    box-shadow: 0px 10px 20px 0px rgba(130,20,106,0.1);
     border-radius: 10px;
     text-align: center;
     -webkit-transition-duration: 500ms;
@@ -48,7 +48,8 @@
 }
 
 .team-content:hover{
-background: #5f30ff;
+    background: #5684EC;
+
 }
 .team-content:hover h5,
 .team-content:hover span,

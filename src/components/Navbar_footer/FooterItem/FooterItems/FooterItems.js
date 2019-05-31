@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './FooterItems.css';
 import { Container, NavItem, NavLink, Row, Col, Nav } from 'reactstrap';
-import FooterBg from '../../../../assets/img/domain-bg1.png';
+import FooterBg from '../../../../assets/img/blog/footer.png';
 
 class Footer extends Component {
     render() {
@@ -13,30 +13,16 @@ class Footer extends Component {
                     <Row>
                         <Col sm="8">
                             <div className="footer-menu">
-                                <Nav>
-                                    <NavItem>
-                                        <NavLink href="/">Нүүр</NavLink>
-                                    </NavItem>
-                                    <NavItem>
-                                        <NavLink href="/About">Бидний тухай</NavLink>
-                                    </NavItem>
-                                    <NavItem>
-                                        <NavLink href="/service">Вэб сайт хийх үйлчилгээ</NavLink>
-                                    </NavItem>
-                                    <NavItem>
-                                        <NavLink href="/contact">Холбоо барих</NavLink>
-                                    </NavItem>
-                                </Nav>
+                              © 2007-2017 Монгол Контент ХХК
                             </div>
                         </Col>
                         <Col sm="4">
-                            <div class="footer-icon ">
+                            <div className="footer-icon ">
                
-                            <NavLink href="#"><i class="fab fa-facebook-square"></i></NavLink>
-                            <NavLink href="#"><i class="fab fa-instagram"></i></NavLink>
-                            <NavLink href="#"><i class="fab fa-twitter-square"></i></NavLink>
-                            <NavLink href="#"><i class="fab fa-pinterest-square"></i></NavLink>
-                         
+                            <NavLink href="#"><i className="fab fa-facebook-square"></i></NavLink>
+                            <NavLink href="#"><i className="fab fa-instagram"></i></NavLink>
+                            <NavLink href="#"><i className="fab fa-twitter-square"></i></NavLink>
+                            <NavLink href="#"><i className="fab fa-pinterest-square"></i></NavLink>
                             </div>
                         </Col>
                         <div className="copyright">

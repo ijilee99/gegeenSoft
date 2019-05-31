@@ -13,7 +13,7 @@ import WidgetTitle from '../SectionServes/WidgetTitle/WidgetTitle';
 
 const Service = () => {
     return (
-        <section class="service-area section-gap">
+        <section className="service-area section-gap">
             <Container >
                 <WidgetTitle/>
                 <Row >
@@ -53,7 +53,6 @@ const Service = () => {
                             <img src={back}/>
                             <img className="s-icon" src={icon3}/>
                             <img className="clr-icon" src={clr3}/>
-                           
                             </div>
                             <div className="service-content">
                                 <h4> Мэдээлэл технологи аутсорсингийн үйлчилгээ</h4>

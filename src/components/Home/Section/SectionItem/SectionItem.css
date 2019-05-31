@@ -1,5 +1,5 @@
 .domain-search-section{
-background-image: linear-gradient(to left, #00C0ED, #0092D8);
+ background: #F6F6FF;
 }
 
 
@@ -8,7 +8,7 @@ background-image: linear-gradient(to left, #00C0ED, #0092D8);
 }
 .set-bg {
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; 
 	background-position: top center;
 }
 

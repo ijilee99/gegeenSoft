@@ -1,22 +1,19 @@
-.hero-section  {
-	height: 650px;
-  overflow: hidden;
-}
 
-.page-top-section {
-	height: 404px;
+.page-top-header {
+	height: 476px;
 	padding-top: 215px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
 }
 
-.page-top-section h2 {
+.page-top-header h2 {
 	color: #fff;
 }
 
 
 .set-bg {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
+
 }
 
 .site-breadcrumb {

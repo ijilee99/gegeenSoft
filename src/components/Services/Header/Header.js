@@ -1,7 +1,7 @@
 import React from 'react';
-import PageTop from '../../../assets/img/page-top-bg1.png';
+import PageTop from '../../../assets/img/blog/about.png';
 import './Header.css';
-import {Container,NavLink} from 'reactstrap';
+import {Container} from 'reactstrap';
 
 
 const Header = () => {

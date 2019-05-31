@@ -15,7 +15,6 @@ class Service2 extends Component {
                                 <div className="box-img">
                                     <img src={mobile} />
                                 </div>
-
                             </Col>
                             <Col sm="6" >
                                 <div className="section-title">

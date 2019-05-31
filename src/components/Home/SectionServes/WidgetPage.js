@@ -23,9 +23,6 @@ class WidgetPage extends Component {
                                         subtitle={subtitle}
                                     />
                                 </Col>
-
-
-
                             )
                         )}
                     </Row>

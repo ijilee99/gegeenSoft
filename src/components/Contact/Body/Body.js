@@ -17,19 +17,19 @@ class Body extends Component {
                             <p>Та дараах сувгуудаар бидэнтэй холбогдох боломжтой. Эсвэл холбоо барих формыг бөглөн өөрийн холбоо барих мэдээллийг үлдээгээрэй. Бид ажлын 1 хоногт багтан эргэн холбогдох болно. Баярлалаа.</p>
                             <div className="cont-info">
                                 <div className="ci-icon">
-                                    <img src={Contact1 } />
+                                    <img src={Contact1 } alt="icon" />
                                 </div>
                                 <span>Тайм скүэр 509, Хан-Уул дүүрэг, 11-р хороо.</span>
                             </div>
                             <div className="cont-info">
                                 <div className="ci-icon">
-                                    <img src={Contact2} />
+                                    <img src={Contact2} alt="icon"/>
                                 </div>
                                 <span> 77001623</span>
                             </div>
                             <div className="cont-info">
                                 <div className="ci-icon">
-                                    <img src={Contact3} />
+                                    <img src={Contact3} alt="icon"/>
                                 </div>
                                 <span> info@bzp.mn</span>
                             </div>

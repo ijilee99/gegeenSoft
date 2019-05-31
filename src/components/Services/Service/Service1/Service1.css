@@ -6,6 +6,9 @@
   margin-bottom: 30px;
   
 }
+.box-style a{
+   list-style: none;
+}
 .box-style-content{
   border: none;
   background: #fff;

@@ -4,6 +4,7 @@ import SerIcon1 from '../../../../assets/img/icons/ser1.png';
 import SerIcon2 from '../../../../assets/img/icons/ser2.png';
 import SerIcon3 from '../../../../assets/img/icons/ser3.png';
 import './Service1.css';
+import { Link} from 'react-router-dom';
 
 class Service extends Component {
     render() {
@@ -24,19 +25,23 @@ class Service extends Component {
                             <Row>
                                 <Col sm="4" className="box-style">
                                     <div className="box-style-content">
+                                        <Link to="/">
                                         <h4>Mobile app</h4>
+                                        </Link>
+                                     
                                         <img src={SerIcon1} />
                                     </div>
                                 </Col>
                                 <Col sm="4" className="box-style">
                                     <div className="box-style-content">
-                                        <h4>Вэб сайт</h4>
+                                        <Link to="/"><h4>Вэб сайт</h4></Link>
+                                   
                                         <img src={SerIcon2} />
                                     </div>
                                 </Col>
                                 <Col sm="4" className="box-style">
                                     <div className="box-style-content">
-                                        <h4>Mobile app</h4>
+                                        <Link to="/"><h4>Mobile app</h4></Link>  
                                         <img src={SerIcon3} />
                                     </div>
                                 </Col>

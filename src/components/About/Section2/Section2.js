@@ -34,7 +34,6 @@ class Section2 extends Component {
                                />
                               </Col>
                           ))}
-
                     </Row>
                 </Container>
             </section>

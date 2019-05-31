@@ -1,64 +1,69 @@
 
-.hero-section  {
-	  height: 650px;
-    overflow: hidden;
+.slider-bg{
+	background: url('../../../assets/img/blog/bg3.png')no-repeat scroll center center;
+	height: 954px;
 }
+
 
 .hero-content {
 	font-family: 'Comfortaa', sans-serif!important;
-    margin-left: 30px;
-    margin-top: 250px;
-	display: -ms-flex;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: left;
-	-ms-flex-align: left;
-	align-items: left;
-	-webkit-box-pack: left;
-	-ms-flex-pack: left;
-	justify-content: left;
-	height: 100%;
-	width: 100%;
-	position: relative;
+  margin-left: 250px;
+  margin-top: 350px;
 }
-.hero-content h3{
-	font-family: 'Comfortaa', sans-serif!important;
-	font-size: 14px;
-	text-transform: uppercase;
-	font-weight: 400;
-	margin-bottom: 20px;
-	letter-spacing: 2px;
-	color: #fff;
-}
+
 .hero-content h1 {
 	font-family: 'Comfortaa', sans-serif!important;
 	margin-top: 0;
-	font-size: 53px;
+	font-size: 45px;
 	font-weight: 500;
-	line-height: 1;
+	line-height: 1.2;
 	margin-bottom: 20px;
-	color:#fff;
+	color:#3F1D78;
 
 }
-
-.hero-content P {
+.hero-content p{
 	font-family: 'Comfortaa', sans-serif!important;
-	font-size: 18px;
-	line-height: 1.7;
-	margin-bottom: 40px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	color: #9688AD;
+	
+}
+.button-style button{
+	background: #5682EC;
+	border: none;
+	padding: 25px 45px 25px 45px;
+	font-size: 14px;
+	text-transform: uppercase;
+	border-radius:55px;
+	font-weight: 600;
+	box-shadow: 0px 15px 30px rgba(86,132,236, 0.5);
 }
 
-.hero-rocket {
+.button-style button:hover{
+	background: #fff;
+	color: #5682EC;
+	border: 2px solid #5682EC;
+	padding: 25px 45px 25px 45px;
+	font-size: 14px;
+	text-transform: uppercase;
+	border-radius:55px;
+	font-weight: 600;
+	box-shadow: 0px 15px 30px rgba(86,132,236, 0.5);
+}
+
+ .hero-rocket {
 	position: absolute;
-	bottom: -140px;
-	right: -150px;	
-}
+	top: 60%;
+  left: 5%;
+} 
 
-/* .hero-rocket img {
+.hero-rocket img {
 	position: relative;
-	-webkit-animation: rocket 2s linear infinite;
-	animation: rocket 2s linear infinite;
+	-webkit-animation: rocket 3s linear infinite;
+	animation: rocket 3s linear infinite;
 }
 
 @-webkit-keyframes rocket {
@@ -105,21 +110,46 @@
 		left: 20px;
 		bottom: 20px;
 	}
-} */
+} 
 /*Large Mobile : 480px */
 
-@media only screen and (max-width: 1350px) {
-  .hero-rocket{
-		width: 657px;
-    position: absolute;
-    bottom: -151px;
-    right: -81px;
+@media only screen and (max-width: 1000px) {
+    
+.hero-content {
 
-
-  }
+  margin-left: 20px;
+  margin-top: 350px;
 }
+.hero-rocket {
+	left: 60%;
+	top: 50%;
+} 
+	} 
+	@media only screen and (max-width: 767px) {
+		.hero-rocket{
+			display: none;
+		}
+	}
 
-@media only screen and (max-width: 1200px) {
+ @media only screen and (max-width: 320px) {
+		.hero-content h1{
+	   font-size:35px;
+		    
+		}
+	} 
+/* 
+ @media only screen and (max-width: 1350px) {
+	.hero-content {
+		font-family: 'Comfortaa', sans-serif!important;
+		margin-left: 250px;
+		margin-top: 350px;
+	}
+  .hero-rocket{
+    display: none;  
+  }
+}  */
+
+/* @media only screen and (max-width: 1200px) {
   .hero-rocket{
 		width: 431px;
     position: absolute;
@@ -127,39 +157,29 @@
     right: -51px;
 
   }
-}
-@media only screen and (max-width: 1000px) {
-  .hero-rocket{
-		width: 371px;
-		position: absolute;
-    bottom: -22px;
-    right: -129px;
-
-  }
-}
-@media only screen and (max-width: 950px) {
+} */
+/* 
+} */
+/* @media only screen and (max-width: 950px) {
   .hero-rocket{
 	  display: none;
   }
 
-}
-@media only screen and (max-width: 767px) {
-  .hero-rocket{
-	  display: none;
-  }
+} */
+/*
 
-}
+} */
 /* Medium Mobile :480px. */
 
-@media only screen and (min-width: 576px) and (max-width: 766px) {
+/* @media only screen and (min-width: 576px) and (max-width: 766px) {
 	.hero-section {
 		height: 600px;
 	}
-}
+} */
 
 /* Small Mobile :320px. */
 
-@media only screen and (max-width: 479px) {
+/* @media only screen and (max-width: 479px) {
 	.site-logo {
 		margin-left: 15px;
 	}
@@ -174,15 +194,15 @@
 		margin-bottom: 30px;
 	}
 
-}
+} */
 
 
-@media only screen and (max-width: 360px) {
+/* @media only screen and (max-width: 360px) {
 	.hero-content h1{
 		font-size: 37px;
 	}
 
-}
+} */
 
 
 

@@ -14,13 +14,10 @@ class SectionItem extends Component {
                 <Container>
                     <div className="section-title">
                         <img src={SectionTitle} alt="#" />
-                        <div className="text-white">
                             <h2>БҮТЭЭЛҮҮД</h2>
                             <p>Вэбсайт бол танай байгууллагын нүүр царай, бизнесийн нэг салшгүй хэсэг.<br/> Бид 50+ байгууллагатай хамтран өөрсдийн мэдлэг, туршлага, ур чадвараа шингээн ажилласан байна..<br/> Та ч мөн бидэнтэй хамтран ажиллах бүрэн боломжтой.</p>
-                        </div>
                     </div>
                 </Container>
-
                 <SectionCarousel3 />
             </section >
 

@@ -31,12 +31,12 @@ export default class NavigationItems extends React.Component {
   render() {
     return (
       <div id="header"  class="fixed-top">
-          <Navbar light expand="md" navbar-default >
+          <Navbar light expand="md">
             <NavbarBrand href="/" className="site-logo"><img src={Logo} /></NavbarBrand>
             <NavbarToggler  onClick={this.toggle} />
             <Collapse className="nav-warp navbar" isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto main-menu" navbar>
-                <NavItem active>
+                <NavItem >
                   <NavLink href="/" >Нүүр</NavLink>
                 </NavItem>
                 <NavItem>
@@ -55,4 +55,3 @@ export default class NavigationItems extends React.Component {
     );
   }
 }
-
